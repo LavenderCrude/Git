@@ -1,0 +1,24 @@
+
+
+use -> git init //initalise the git to link with github
+-> then create a "README.md" file in folder
+
+-> go to github and create new repositary(same name as folder in vs code) don't include README.md file
+-> copy the link of the repositary
+
+use -> git remote add origin "link of the repositary you copy"
+
+/* not compulsory
+
+use -> git remote -v (to verify remote)
+use -> git branch  (to check branch for seeing multiple users)
+
+*/
+
+
+use -> git branch -M main (compulsory after adding link to origin)
+
+use-> git push origin main (adding file to github)
+
+Or -> git push origin -u origin main //it allow to use git push
+if u use above command simpily use git push
