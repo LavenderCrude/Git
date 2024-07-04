@@ -21,4 +21,4 @@ use -> git branch -M main (compulsory after adding link to origin)
 use-> git push origin main (adding file to github)
 
 Or -> git push origin -u origin main //it allow to use git push
-if u use above command simpily use git push
+if u use above command simpily use git push.
